@@ -22,6 +22,9 @@ gem 'stripe'
 # Figaro gem for securely managing credentials
 gem 'figaro'
 
+# Add letter opener for handling emails in development
+gem 'letter_opener', group: :development
+
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
