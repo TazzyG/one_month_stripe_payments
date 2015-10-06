@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 #AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password');
 
-growth_hacking = Product.create(title: "Growth Hacking", subtitle: "Crash Course", author: "Mattan Griffel", price: "4.99", 
+growth_hacking = Product.create(title: "Growth Hacking", subtitle: "Crash Course", author: "Mattan Griffel", price: "4.99", sku: "GROWHACK1", 
 description: %{<p>In this talk, Mattan Griffel introduces you to the concept of Growth Hacking and shares his favorite tips for getting started as a growth hacker.</p>
         <p><strong>What You'll Learn</strong></p>
         <ul class="no-indent">
