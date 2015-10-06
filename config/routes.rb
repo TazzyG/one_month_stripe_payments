@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   # Support stripe payments through charges
   resources :charges
 
+  # Route for showing products - undefined local variable or method `product'
+  resources :products
+
   # Route for showing purchases
   resources :purchases, only: [:show]
   # The priority is based upon order of creation: first created -> highest priority.
