@@ -24,6 +24,12 @@ gem 'stripe'
 # Figaro gem for securely managing credentials
 gem 'figaro'
 
+# Add activeAdmin to generate an admin interface
+gem 'activeadmin', github: 'activeadmin'
+
+# Add devise to support login for activeAdmin
+gem 'devise'
+
 # Add letter opener for handling emails in development
 gem 'letter_opener', group: :development
 
