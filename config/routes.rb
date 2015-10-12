@@ -10,8 +10,13 @@ Rails.application.routes.draw do
   # Route for showing products - undefined local variable or method `product'
   resources :products
 
+  # Route for showing products
+  resources :products, only: [:show]
+
   # Route for showing purchases
   resources :purchases, only: [:show]
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
