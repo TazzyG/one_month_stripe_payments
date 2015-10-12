@@ -7,11 +7,8 @@ Rails.application.routes.draw do
   # Support stripe payments through charges
   resources :charges
 
-  # Route for showing products - undefined local variable or method `product'
-  resources :products
-
   # Route for showing products
-  resources :products, only: [:show]
+  resources :products, only: [:index, :show]
 
   # Route for showing purchases
   resources :purchases, only: [:show]
