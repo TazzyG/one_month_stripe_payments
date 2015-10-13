@@ -22,7 +22,7 @@ class ChargesController < ApplicationController
 	  	card: params[:stripeToken], 
 	  	amount: product.price_in_cents, 
 	  	description: product.full_description, 
-	  	currency: 'cad', 
+	  	currency: "CAD", 
 	  	customer_id: customer.id,
 	  	product_id: product.id, 
 	  	uuid: SecureRandom.uuid
